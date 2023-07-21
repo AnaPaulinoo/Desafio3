@@ -39,7 +39,7 @@ class Registro {
         val input = readLine()
 
         when (input) {
-            "1" -> return // Voltar para o menu inicial
+            "1" -> return
             "2" -> editarItem(carrinho)
             "3" -> removerItem(carrinho)
             "4" -> finalizarPedido(carrinho)
